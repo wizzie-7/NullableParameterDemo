@@ -6,12 +6,12 @@ namespace NullableParameterDemo
     {
         static void Main(string[] args)
         {
-            Nullable<int> n = null;
+            Nullable<int> num = null;
 
             // using the method
             // output will be 0 as default
             // value of null is 0
-            Console.WriteLine(n.GetValueOrDefault());
+            Console.WriteLine(num.GetValueOrDefault());
 
             // defining Nullable type
             int? n1 = null;
